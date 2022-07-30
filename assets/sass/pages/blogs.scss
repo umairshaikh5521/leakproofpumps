@@ -1,0 +1,39 @@
+.blogs{
+    padding-bottom: 3rem;
+    .blog-single-card{
+        img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        margin-top: 1.5rem;
+
+        .details{
+            color: $black;
+        }
+    }
+}
+
+.single{
+    .post-thumbnail img{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        max-height: 510px;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .entry-content{
+        color: $black;
+        // .entry-title{
+        //     fo
+        // }
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .post-thumbnail{
+        text-align: center;
+    }
+}

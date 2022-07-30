@@ -1,0 +1,61 @@
+.contact-banner{
+    background-image: url('https://ik.imagekit.io/lpp5521/home/contact-banner.jpg');
+    background-size: cover;
+    padding: 3rem 0;
+
+    .c-wrapper{
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 3rem;
+        @media only screen and (max-width: 767px){
+            padding: 3rem 1.5rem;
+        }
+
+        .col-lg-6{
+            @media only screen and (max-width: 991px){
+                order: 2;
+                &:nth-of-type(2){
+                    order: 1;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+
+        .add-block{
+            margin-top: 3rem;
+
+            .s-row{
+                flex-wrap: wrap;
+            }
+            div{
+                max-width: 401px;
+            }
+
+            &:first-of-type{
+                margin-top: 0;
+            }
+            .main-icon{
+                margin-right: 16px;
+                width: 72px;
+                margin-top: 3px;
+                @media only screen and (max-width: 500px){
+                    display: none;
+                }
+
+            }
+
+            .label{
+                min-width: 120px;
+            }
+        }
+    }
+
+    .c-details-wrapper{
+        .input-wrapper{
+            margin-bottom: .2rem;
+        }
+        textarea.form-control{
+            max-height: 170px;
+        }
+    }
+}
